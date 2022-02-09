@@ -138,3 +138,33 @@ form button:hover, form button:active {
 .anim {
     opacity: 0;
 }
+
+textarea {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20rem;
+    border: none;
+    overflow: auto;
+    outline: none;
+
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+
+    resize: none; /*remove the resize handle on the bottom right*/
+
+    font-size: 3rem;
+    height: auto;
+    font-weight: 900;
+}
+
+textarea {
+    white-space: normal;
+    text-align: justify;
+    -moz-text-align-last: center; /* Firefox 12+ */
+    text-align-last: center;
+    background: none;
+    color:white;
+    font-family: "Oswald", sans-serif;
+}
